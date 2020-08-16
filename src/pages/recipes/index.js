@@ -2,12 +2,14 @@ import React from 'react';
 import './index.css';
 
 function Recipes({ recipes }) {
-  const exampleRecipe = {
-    title: 'Brown Rice and Chicken'
-  }
+  const exampleRecipes = [
+    {id: 1, title: 'Brown Rice and Chicken'}, {id: 2, title: 'Tofu Stirfry'}
+  ];
 	return (
     <React.Fragment>
-      <Recipe title={exampleRecipe.title} />
+    {exampleRecipes.map(item => {
+      return <Recipe key={item.id} title={item.title} />
+    })}
     </React.Fragment>
 	);
 }
