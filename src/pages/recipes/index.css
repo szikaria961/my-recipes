@@ -9,4 +9,13 @@
 	font-weight: bold;
 }
 
+.recipe-ingredients-title {
+  font-size: 1.25em;
+  padding: 15px 0 5px 0;
+  text-decoration: underline;
+}
 
+.recipe-ingredients {
+  padding: 0 0 0 10px;
+
+}
