@@ -9,6 +9,7 @@ function Recipes({ recipes }) {
         key={item.id}
         title={item.title}
         ingredients={item.ingredients}
+        instructions={item.instructions}
       />
     })}
     </React.Fragment>
@@ -30,6 +31,16 @@ function Recipe({ title, ingredients, instructions }) {
             );
           })}
         </ul>
+      </div>
+      <div className="recipe-instructions-title">Instructions</div>
+      <div className="recipe-instructions">
+        <ol>
+          {instructions.map((item, index) => {
+            return (
+              <li className="recipe-instructions-item" key={index}>{item}</li>
+            );
+          })}
+        </ol>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 [
 	{
     "id": 1,
-    "title": "Brown Rice and Chicken",
+    "title": "Instant Pot Chicken and Brown Rice",
     "ingredients": [
       "2 tablespoons olive oil",
       "1 whole cut-up chicken (2 1/2 to 3 pounds), skins removed, breasts halved crosswise (save wings for another use)",
@@ -13,6 +13,12 @@
       "1 jar (12 ounces) roasted red peppers, drained and sliced into 1/2-inch strips",
       "1 package (10 ounces) frozen green peas, thawed",
       "Lemon wedges, for serving (optional)"
+    ],
+    "instructions": [
+      "test instruction 1",
+      "test instruction 2",
+      "test instruction 3",
+      "test instruction 4"
     ]
 	},
   {
@@ -29,6 +35,12 @@
       "10 ounces baby spinach**",
       "2 tablespoons toasted sesame seeds",
       "2 teaspoons sesame oil"
+    ],
+    "instructions": [
+      "test instruction 1",
+      "test instruction 2",
+      "test instruction 3",
+      "test instruction 4"
     ]
   }
 ]
