@@ -1,23 +1,11 @@
 import React from 'react';
-
-const recipe = {
-  title: 'Brown Rice and Chicken'
-}
+import Recipes from './pages/recipes';
 
 function App() {
   return (
     <React.Fragment>
-      <Recipe title={'Tofu stirfry'} />
-      <Recipe title={recipe.title} />
+      <Recipes />
     </React.Fragment>
-  );
-}
-
-function Recipe({ title, ingredients, instructions }) {
-  return (
-    <div className="recipe-title">
-      {title}
-    </div>
   );
 }
 
