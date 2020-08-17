@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './index.css';
 
 function Recipes({ recipes }) {
@@ -17,31 +17,46 @@ function Recipes({ recipes }) {
 }
 
 function Recipe({ title, ingredients, instructions }) {
+  const [isOpen, setIsOpen] = useState(true);
+
+  const handleClick = () => {
+    if (isOpen === false) {
+      setIsOpen(true);
+    } else {
+      setIsOpen(false);
+    }
+  }
+
   return (
     <div className="recipe">
-      <div className="recipe-title">
+      <div onClick={handleClick} className="recipe-title">
         {title}
       </div>
-      <div className="recipe-ingredients-title">Ingredients</div>
-      <div className="recipe-ingredients">
-        <ul>
-          {ingredients.map((item, index) => {
-            return (
-              <li className="recipe-ingredients-item" key={index}>{item}</li>
-            );
-          })}
-        </ul>
-      </div>
-      <div className="recipe-instructions-title">Instructions</div>
-      <div className="recipe-instructions">
-        <ol>
-          {instructions.map((item, index) => {
-            return (
-              <li className="recipe-instructions-item" key={index}>{item}</li>
-            );
-          })}
-        </ol>
-      </div>
+      {isOpen && (
+        <React.Fragment>
+          <div className="recipe-ingredients-title">Ingredients</div>
+          <div className="recipe-ingredients">
+            <ul>
+              {ingredients.map((item, index) => {
+                return (
+                  <li className="recipe-ingredients-item" key={index}>{item}</li>
+                );
+              })}
+            </ul>
+          </div>
+
+          <div className="recipe-instructions-title">Instructions</div>
+          <div className="recipe-instructions">
+            <ol>
+              {instructions.map((item, index) => {
+                return (
+                  <li className="recipe-instructions-item" key={index}>{item}</li>
+                );
+              })}
+          </ol>
+          </div>
+        </React.Fragment>
+      )}
     </div>
   );
 }
