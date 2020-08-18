@@ -1,6 +1,23 @@
 [
-	{
+  {
     "id": 1,
+    "title": "Abbu's Morning Oatmeal",
+    "ingredients": [
+      "2/3 cup of 100% Whole Grain Steel Cut Oats",
+      "1/4 cup of Quaker Steel Cut Oats",
+      "2 1/2 cups of water",
+      "a pinch of salt"
+    ],
+    "instructions": [
+      "Pour in 2 1/2 cup of water inside the inner pot.",
+      "Add your oats and mix together the oats with water.",
+      "Put the lid on Instant Pot. Set Valve to sealed and set manual or time to 15 minutes on high pressure.",
+      "Allow to naturally release for 10 minutes before carefully releasing any additional steam by using a wooden spoon to turn valve to vent.",
+      "Remove bowl carefully and then serve with desired toppings or allow to cool and store in fridge to reheat as needed."
+    ]
+  },
+	{
+    "id": 2,
     "title": "Instant Pot Chicken and Brown Rice",
     "ingredients": [
       "2 tablespoons of olive oil",
@@ -34,7 +51,7 @@
     ]
 	},
   {
-    "id": 2,
+    "id": 3,
     "title": "Tofu Stir Fry",
     "ingredients": [
       "1 (14-ounce) packages extra-firm tofu - do not use firm, silken or anything other than extra-firm",

@@ -17,7 +17,7 @@ function Recipes({ recipes }) {
 }
 
 function Recipe({ title, ingredients, instructions }) {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
     if (isOpen === false) {
