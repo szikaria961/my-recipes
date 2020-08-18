@@ -19,3 +19,7 @@
 .recipe-ingredients, .recipe-instructions {
   padding: 0 0 0 10px;
 }
+
+.recipe-ingredients-item, .recipe-instructions-item {
+  padding: 0 0 10px 0;
+}
