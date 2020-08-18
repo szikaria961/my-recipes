@@ -71,5 +71,25 @@
       "In a separate bowl add sriracha, corn starch, soy sauce, and white vinegar. Add the mixture to your veggies and tofu.",
       "Heat should be at low at this point, mix the sauce, veggies and tofu evenly for 1 minute. Remove from the heat. Serve hot, with brown rice, noodles, or whatever you like, along with a few dashes of additional soy sauce and chili paste or flakes to taste."
     ]
+  },
+  {
+    "id": 4,
+    "title": "Baked Sweet Potatoes (Oven)",
+    "ingredients": [
+      "1 Sweet Potato",
+      "Onion Powder",
+      "Garlic Powder",
+      "Salt",
+      "Black Pepper",
+      "Cayenne Chilli Powder",
+      "Olive Oil (Preferred)"
+    ],
+    "instructions": [
+      "Cut sweet potato into small even slices (like half-sized french fries)",
+      "Spread slices across a baking tray",
+      "Drizzle lightly with olive oil",
+      "Sprinkle onion powder, garlic powder, salt, black pepper and cayenne chilli powder to your discretion",
+      "Bake at 420 fahrenheit for 20-30 minutes (or until outside of slices is crispy)"
+    ]
   }
 ]
