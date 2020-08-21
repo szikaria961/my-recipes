@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock } from '@fortawesome/free-regular-svg-icons'
 import './index.css';
 
 function Recipes({ recipes }) {
@@ -36,10 +38,14 @@ function Recipe({ title, prepTime, cookTime, ingredients, instructions }) {
       </div>
       {isOpen && (
         <React.Fragment>
-          <div className="recipe-preptime-title"> Prep Time: </div>
-          <div className="recipe-preptime-item"> {prepTime}</div>
+          <div className="recipe-preptime-title"> Prep Time:</div>
+          <div className="recipe-preptime-item">
+            <FontAwesomeIcon icon={faClock} />  {prepTime}
+          </div>
           <div className="recipe-cooktime-title"> Cook Time:</div>
-          <div className="recipe-preptime-item"> {cookTime}</div>
+          <div className="recipe-preptime-item">
+            <FontAwesomeIcon icon={faClock} />  {cookTime}
+          </div>
           <div className="recipe-ingredients-title">Ingredients</div>
           <div className="recipe-ingredients">
             <ul>
