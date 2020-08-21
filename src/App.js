@@ -7,7 +7,7 @@ function App() {
   return (
     <React.Fragment>
       <Header title='My Recipes' />
-      <Recipes recipes={recipes} />
+        <Recipes recipes={recipes} />
     </React.Fragment>
   );
 }

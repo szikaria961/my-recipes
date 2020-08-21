@@ -15,7 +15,7 @@
   color: #bdc3c7;
 }
 
-.recipe-ingredients-title, .recipe-instructions-title {
+.recipe-ingredients-title, .recipe-instructions-title, .recipe-cooktime-title, .recipe-preptime-title{
   font-size: 1.25em;
   padding: 15px 0 10px 0;
   text-decoration: underline;
