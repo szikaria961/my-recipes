@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Abbu's Morning Oatmeal",
+    "title": "Instant Pot Oatmeal",
     "prepTime": "2 minutes",
     "cookTime": "15 minutes",
     "ingredients": [
@@ -62,7 +62,7 @@
     "ingredients": [
       "1 (14-ounce) packages extra-firm tofu - do not use firm, silken or anything other than extra-firm",
       "1 tablespoon olive oil",
-      "3 tablespoons low-sodium soy sauce - divided, plus additional to taste",
+      "2 tablespoons low-sodium soy sauce - divided, plus additional to taste",
       "10 ounces baby spinach",
       "few servings of your favorite mixed vegetables (I prefer Trader Joe’s Stir Fry Vegetables with this dish or whatever I find in my fridge)",
       "3 teaspoons of Sriracha",
@@ -98,6 +98,35 @@
       "Drizzle lightly with olive oil",
       "Sprinkle onion powder, garlic powder, salt, black pepper and cayenne chilli powder to your discretion",
       "Bake at 420 fahrenheit for 20-30 minutes (or until outside of slices is crispy)"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Instant Pot Daal",
+    "prepTime": "4 minutes",
+    "cookTime": "14 minutes",
+    "ingredients": [
+      "1 cup of Red Split Pea",
+      "1 tablespoon of olive oil",
+      "1 1/2 tablespoon of minced garlic or 2 finely chopped garlic",
+      "3/4 cup of water",
+      "1 chopped tomatoe",
+      "1 Knorr Chicken Bouillon Cube",
+      "1 teaspoon of chilli flakes",
+      "1 teaspoon of chilli powder",
+      "2 tablespoon of onion powder",
+      "1/2 teaspoon of black pepper",
+      "1/2 teaspoon of corriander powder",
+      "1/2 teaspoon of turmeric powder",
+      "1 tablespoon of corriander seeds"
+    ],
+    "instructions": [
+      "Start the instant pot in sauté mode and heat the oil in it. Add cumin seeds, chilli flakes and garlic",
+      "After the garlic turns light brown, add the chopped tomatoe and spices and cook for 2 minutes",
+      "Add the washed dal and water with Bouillon Cube. Stir it all up",
+      "Close the lid with vent in sealing position",
+      "Change the instant pot setting to manual or pressure cook mode at high pressure for for 4 mins. After the instant pot beeps, let the pressure release naturally for 5 minutes, then release the pressure manually (5 minute NPR)"
+      "Garnish with cilantro and stir. Optionally, sprinkle the juice of half a lemon. Dal tadka is ready to be served"
     ]
   }
 ]
