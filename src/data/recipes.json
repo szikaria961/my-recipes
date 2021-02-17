@@ -129,6 +129,26 @@
         "Change the instant pot setting to manual or pressure cook mode at high pressure for for 4 mins. After the instant pot beeps, let the pressure release naturally for 5 minutes, then release the pressure manually (5 minute NPR)",
         "Garnish with cilantro and stir. Optionally, sprinkle the juice of half a lemon. Dal tadka is ready to be served"
       ]
+    },
+    {
+      "id": 6,
+      "title": "Thai Coconut Curry Tofu",
+      "prepTime": "15min",
+      "cookTime": "15min",
+      "ingredients": [
+        "1 pack extra-firm tofu, drained and cut into cubes",
+        "2 tbsp olive oil",
+        "2 curry powder",
+        "14oz can coconut milk",
+        "mushrooms",
+        "1 tbsp soy sauce (gluten-free if needed)",
+        "Juice of 1/2 a lime",
+        "1 tsp paprika (optional)",
+        "Rice, cilantro to serve"
+      ],
+      "instructions": [
+        "TODO"
+      ]
     }
   ]
 }
