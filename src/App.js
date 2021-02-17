@@ -1,14 +1,18 @@
 import React from 'react';
 import RecipeList from './pages/recipes';
 import recipes from './data/recipes.json';
-import Header from './components/header'
+import Header from './components/header';
 
 function App() {
   return (
-    <React.Fragment>
-      <Header title='My Recipes' />
-        <RecipeList recipes={recipes.recipes} />
-    </React.Fragment>
+    <div className="app">
+      <div className="app-container">
+        <div className="app-content">
+          <Header title='My Recipes' />
+          <RecipeList recipes={recipes.recipes} />
+        </div>
+      </div>
+    </div>
   );
 }
 

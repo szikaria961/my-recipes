@@ -1,0 +1,13 @@
+.header-title {
+  padding: 20px 0 10px 0;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.recipe-header-icon {
+  padding: 0 0 0 15px;
+  display: flex;
+  justify-content: center;
+}
